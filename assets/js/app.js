@@ -166,15 +166,16 @@ $(document).ready(function(){
 
 });
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 4.5,
+  slidesPerView: 3,
   centeredSlides: true,
   spaceBetween: 30,
   grabCursor: true,
+  autoplay:true,
   loop:true,
   preloadImages: false,
   breakpoints: {
   320: {
-      slidesPerView: 1.5,
+      slidesPerView: 1,
   },
   481: {
       slidesPerView: 3,
@@ -183,7 +184,7 @@ var swiper = new Swiper(".mySwiper", {
       slidesPerView: 4,
   },
   1400: {
-      slidesPerView: 4.5,
+      slidesPerView: 4,
   },
 },
   navigation: {

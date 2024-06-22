@@ -2786,6 +2786,13 @@ footer .sub-footer p {
 .service-item {
   display: flex;
   flex-direction: column;
+  background: #dcdbdb;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 0 20px;
+}
+.service-item p {
+  padding-top: 10px;
 }
 
 .service-item > a {
