@@ -27,7 +27,11 @@ body {
   font-family: "Urbanist-VariableFont_wght";
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: "GeneralSans-Variable";
 }
 
@@ -168,6 +172,17 @@ a:hover {
     max-width: 450px;
     width: 100%;
   }
+}
+
+.logo-text {
+  font-family: Urbanist-VariableFont_wght; /* font-family: GeneralSans-Variable; */
+  color: #fff;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}
+
+.footer-about .logo-text {
+  font-size: 20px;
 }
 
 .my-button {
@@ -1585,6 +1600,12 @@ footer .main-footer .footer-about a {
 @media (max-width: 1199px) {
   footer .main-footer .footer-about a {
     margin-bottom: 20px;
+  }
+}
+@media (max-width: 991px) {
+  footer .main-footer .footer-about a {
+    margin-bottom: 30px;
+    font-size: 20px;
   }
 }
 footer .main-footer .footer-about p {

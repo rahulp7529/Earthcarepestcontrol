@@ -7,26 +7,28 @@
 }
 
 @font-face {
-    font-family: 'Urbanist-VariableFont_wght';
-    src:url('../fonts/urbanist/Urbanist-VariableFont_wght.woff') format('woff'),
-        url('../fonts/urbanist/Urbanist-VariableFont_wght.woff2') format('woff2'),
-        url('../fonts/urbanist/Urbanist-VariableFont_wght.svg#Urbanist-VariableFont_wght') format('svg'),
-        url('../fonts/urbanist/Urbanist-VariableFont_wght.eot'),
-        url('../fonts/urbanist/Urbanist-VariableFont_wght.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/urbanist/Urbanist-VariableFont_wght.ttf') format('truetype');
+    font-family: "Urbanist-VariableFont_wght";
+    src:
+        url("../fonts/urbanist/Urbanist-VariableFont_wght.woff") format("woff"),
+        url("../fonts/urbanist/Urbanist-VariableFont_wght.woff2") format("woff2"),
+        url("../fonts/urbanist/Urbanist-VariableFont_wght.svg#Urbanist-VariableFont_wght") format("svg"),
+        url("../fonts/urbanist/Urbanist-VariableFont_wght.eot"),
+        url("../fonts/urbanist/Urbanist-VariableFont_wght.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/urbanist/Urbanist-VariableFont_wght.ttf") format("truetype");
     font-weight: 100 900;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'GeneralSans-Variable';
-    src:url('../fonts/generalsans/GeneralSans-Variable.woff') format('woff'),
-        url('../fonts/generalsans/GeneralSans-Variable.woff2') format('woff2'),
-        url('../fonts/generalsans/GeneralSans-Variable.svg#GeneralSans-Variable') format('svg'),
-        url('../fonts/generalsans/GeneralSans-Variable.eot'),
-        url('../fonts/generalsans/GeneralSans-Variable.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/generalsans/GeneralSans-Variable.ttf') format('truetype');
+    font-family: "GeneralSans-Variable";
+    src:
+        url("../fonts/generalsans/GeneralSans-Variable.woff") format("woff"),
+        url("../fonts/generalsans/GeneralSans-Variable.woff2") format("woff2"),
+        url("../fonts/generalsans/GeneralSans-Variable.svg#GeneralSans-Variable") format("svg"),
+        url("../fonts/generalsans/GeneralSans-Variable.eot"),
+        url("../fonts/generalsans/GeneralSans-Variable.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/generalsans/GeneralSans-Variable.ttf") format("truetype");
 
     font-weight: 100 900;
     font-style: normal;
@@ -38,7 +40,11 @@ body {
     font-family: $primary-font;
 }
 
-h1,h2,h3,h4,h5{
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: $secondary-font;
 }
 
@@ -155,16 +161,29 @@ a:hover {
     color: rgba(0, 0, 0, 0.2);
 }
 
-.image-wrapper{
+.image-wrapper {
     line-height: 0;
-    @media(max-width: 991px){
+    @media (max-width: 991px) {
         margin-bottom: 30px;
         text-align: center;
     }
-    img{
-        @media(max-width: 991px){
+    img {
+        @media (max-width: 991px) {
             max-width: 450px;
             width: 100%;
         }
+    }
+}
+
+.logo-text {
+    font-family: Urbanist-VariableFont_wght; /* font-family: GeneralSans-Variable; */
+    color: #fff;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+}
+
+.footer-about {
+    .logo-text {
+        font-size: 20px;
     }
 }
