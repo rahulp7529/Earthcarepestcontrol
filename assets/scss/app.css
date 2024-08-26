@@ -739,6 +739,17 @@ section {
 .heading.primary h2 {
   color: #013B85;
 }
+.heading ul h2 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+.heading ul li {
+  list-style: circle;
+  margin-left: 20px;
+}
+.heading ul li span {
+  font-weight: 600;
+}
 .heading h2 {
   font-weight: 800;
   font-size: 48px;

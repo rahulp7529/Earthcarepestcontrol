@@ -430,6 +430,19 @@ section{
             color: $heading-color;
         }
     }
+    ul {
+        h2{
+            font-size: 22px;
+            margin-bottom: 5px;  
+        }
+        li{
+            list-style: circle;
+            margin-left: 20px;
+            span{
+                font-weight: 600;
+            }
+        }
+    }
     h2{
         font-weight: 800;
         font-size: 48px;
